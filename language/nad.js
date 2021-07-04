@@ -123,7 +123,7 @@ exports.uangkau = (pushname, sender, uangkau) => {
 ┗━━━━━━━━━━━━━━━━━━━━┛`
 }
 
-exports.donate = () => {
+exports.donasi = () => {
 return`*DONATE*
 Panda : Wa.me/+94701224462
 Website : https://panda-scr.blogspot.com
