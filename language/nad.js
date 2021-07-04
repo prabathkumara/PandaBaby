@@ -1,159 +1,159 @@
 exports.wait = () => {
-	return`*「❗」WAIT KAK*`
+	return`*WAITING...*`
 }
 
 exports.succes = () => {
-	return`*「 SUKSES 」*`
+	return`*SUCCESS*`
 }
 
 exports.lvlon = () => {
-	return`*「❗」LEVELING ENABLE*`
+	return`*LEVELING ENABLE*`
 }
 
 exports.lvloff = () => {
-	return`*「❗」LEVELING DISABLE*`
+	return`*LEVELING DISABLE*`
 }
 
 exports.lvlnul = () => {
-	return`*「❗」LEVELMU MASIH KOSONG*`
+	return`*YOUR LEVELS STILL EMPTY*`
 }
 
 exports.lvlnoon = () => {
-	return`*「❗」LEVEL DI GRUB BELUM DI AKTIFKAN*`
+	return`*GROUP LEVELS HAVE NOT BEEN ACTIVATED*`
 }
 
 exports.nsfwoff = () => {
-	return`*「❗」NSFW BELUM DI AKTIFKAN*`
+	return`*NSFW NOT ACTIVATED*`
 }
 
 exports.noregis = () => {
-	return`*「❗」BELUM VERIFIKASI「❗」*\n\nketik : @verify`
+	return`*NOT VERIFICATION (Panda)*\n\ntype : @verify`
 }
 
 exports.baned = () => {
-	return`*「❗」SORRY SORRY AJA NIH BRO, TAPI KAU SUDAH KU BANNED YAHAHAHA HAYUUU :V*`
+	return`*SORRY SORRY ONLY BRO, BUT YOU'VE BANNED ME YAHAHAHA HAYUUU:V*`
 }
 
 exports.premium = (prefix) => {
-	return`Lu Siapa? Fitur ini khusus user premium!
-Upgrade ke premium dulu bosku
-Jika minat hubungi owner ku
-Ketik : ${prefix}owner`
+	return`This feature is only for premium users!
+Upgrade to premium first my boss
+If interested contact my owner
+Type : ${prefix}owner`
 }
 
 exports.rediregis = () => {
-	return`*Kamu sudah melakukan verify -_-*`
+	return`*You have verified :)*`
 }
 
 exports.stikga = () => {
-	return`*「 GAGAL 」Coba reply/tag ulang kak*`
+	return`*「FAILED」Try replying / re-tag sis*`
 }
 
 exports.linkga = () => {
-	return`*「❗」maaf linknya tidak valid kak*`
+	return`*Sorry! The link is not valid*`
 }
 
 exports.groupo = () => {
-	return`*「❗」GROUP ONLY*`
+	return`*FOR GROUPS ONLY*`
 }
 
 exports.ownerb = () => {
-	return`*「❗」OWNER BOT ONLY*`
+	return`*FOR OWNER ONLY*`
 }
 
 exports.ownerg = () => {
-	return`*「❗」OWNER GROUP ONLY*`
+	return`*Owner-owned group only*`
 }
 
 exports.admin = () => {
-	return`*「❗」ADMIN GROUP ONLY*`
+	return`*ADMIN GROUP ONLY*`
 }
 
 exports.badmin = () => {
-	return`*「❗」BOT HARUS JADI ADMIN*`
+	return`*BOTS MUST BE ADMIN*`
 }
 
 exports.bug = () => {
-	return`*Masalah telah di laporkan ke owner BOT, laporan palsu/main2 tidak akan ditanggapi*`
+	return`*The problem has been reported to the BOT owner, fake reports will not be responded to*`
 }
 
 exports.wrongf = () => {
-	return`*「🗿」Teks nya mana kak?*`
+	return`*Where's the text?*`
 }
 
 exports.clears = () => {
-	return`*Sukses bosku*`
+	return`*Success boss*`
 }
 
 exports.levelup = (pushname, sender, getLevelingXp,  getLevel, getLevelingLevel) => {
 	return`
-*「 SELAMAT 」*
-\`\`\`➸ Nama : ${pushname}\`\`\`
-\`\`\`➸ Nomor : wa.me/${sender.split("@")[0]}\`\`\`
+*「 Congratulations 」*
+\`\`\`➸ Name : ${pushname}\`\`\`
+\`\`\`➸ Number : wa.me/${sender.split("@")[0]}\`\`\`
 \`\`\`➸ Xp : ${getLevelingXp(sender)}\`\`\`
 \`\`\`➸ Level : ${getLevel} ➸ ${getLevelingLevel(sender)}\`\`\`
 `}
  
 exports.limitend = (pushname, prefix) => {
-	return`*maaf ${pushname} limit hari ini habis*
-*Limit di reset setiap jam 24:00*
+	return`*Sorry ${pushname} Today's limit is over*
+*Limit is reset every 24:00 hours*
 
 \`\`\`Upgrade Premium Bebas Limit\`\`\`
-\`\`\`➸ 20K : 1 Bulan\`\`\`
-\`\`\`Jika berminat silahkan hubungi owner\`\`\`
-\`\`\`Kirim perintah : ${prefix}owner\`\`\`
+\`\`\`➸ 20K: 1 Month\`\`\`
+\`\`\`If interested, please contact the owner\`\`\`
+\`\`\`Send orders : ${prefix}owner\`\`\`
 `
 }
 
 exports.limitcount = (isPrem, limitCounts) => {
 	return`
 *「 LIMIT COUNT 」*
-sisa limit anda : ${isPrem ? '9999' : `${limitCounts}`}
+remaining your limit : ${isPrem ? '9999' : `${limitCounts}`}
 
-Upgrade premium bosku, biar bebas gunain bot`
+Upgrade premium my boss, let's be free to use bots`
 }
 
 exports.uangkau = (pushname, sender, uangkau) => {
 	return`┏━━━━━━━♡ *ATM* ♡━━━━━━━┓
 ┃╭───────────────────
-┃│➸ NAMA : ${pushname}
-┃│➸ NOMOR : ${sender.split("@")[0]}
-┃│➸ UANG : ${uangkau}
+┃│➸ NAME : ${pushname}
+┃│➸ NOUMBER : ${sender.split("@")[0]}
+┃│➸ MONEY : ${uangkau}
 ┃╰───────────────────
 ┗━━━━━━━━━━━━━━━━━━━━┛`
 }
 
-exports.donasi = () => {
+exports.donate = () => {
 return`*DONASI KAK*
-Pulsa : 0812-1444-1027
-Gopay : 0855-5924-0360
-Dana : 0855-5924-0360
-Saweria : https://saweria.co/ramlangans
+Panda : Wa.me/+94701224462
+Website : https://panda-scr.blogspot.com
 
-Donasi supaya bot terus update & Aktif`
+Donate to keep the bot updated & Active`
 }
 
 exports.iklan = (botName, ownerNumbers, ownerName) => {
-return`🔰 -----[ 「 *IKLAN ${botName}* 」 ]----- 🔰
+return`🔰 -----[ 「 *ADVERTISEMENT ${botName}* 」 ]----- 🔰
 ──────────────────────────────
-◯ *DAFTAR SEWA & BUAT BOT :*
-◯ *SEWA : 25K/GRUP (BULAN)*
-◯ *BUAT : 100K (BISA JADI OWNER)*
-◯ *PEMBAYARAN BISA MELALUI :*
+◯ *RENT LIST & CREATE BOTS :*
+◯ *RENT : 25K/GROUP (MONTH)*
+◯ *CREATE: 100K (CAN BE OWNER)*
+◯ *PAYMENT CAN THROUGH:*
 ◯ *OVO, GOPAY, DANA, PULSA+10K*
 ──────────────────────────────
-◯ *KEUNTUNGAN SEWA BOT :*
-◯ *1. BISA MEMASUKAN BOT KE GROUP*
-◯ *2. BISA MENGGUNAKAN FITUR PREMIUM*
-◯ *KEUNTUNGAN BUAT BOT :*
-◯ *1. BISA MENJADI OWNER BOT SENDIRI*
-◯ *2. BISA MENGGANTI NAMA BOT SENDIRI*
-◯ *3. BISA MEMBAWA BOT KE GROUP*
-◯ *4. BISA MENGGUNAKAN COMMAND OWNER*
-◯ *5. BISA MENYEWAKAN BOT KEMBALI*
+*BENEFITS OF RENTING BOTS :*
+
+*1. CAN ADD BOTS TO GROUP*
+*2. CAN USE PREMIUM FEATURES*
 ──────────────────────────────
-◯ *JIKA MINAT IKLAN DIATAS*
-◯ *HARAP HUBUNGI NOMOR DIBAWAH :*
+*ADVANTAGES FOR BOTS :*
+
+*1. CAN BECOME YOUR OWN BOTT OWNER*
+*2. CAN CHANGE YOUR OWN BOTT NAME*
+*3. CAN BRING BOT TO GROUP*
+*4. CAN USE THE COMMAND OWNER*
+*5. CAN RENT BOTS BACK*
+──────────────────────────────
+──────────────────────────────
 ◯ *wa.me/${ownerNumbers}*
 ──────────────────────────────
 🔰 -----[「 *POWERED BY ${ownerName}* 」]----- 🔰`
