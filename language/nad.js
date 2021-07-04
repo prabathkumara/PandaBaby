@@ -132,7 +132,7 @@ Donate to keep the bot updated & Active`
 }
 
 exports.iklan = (botName, ownerNumbers, ownerName) => {
-return`🔰 -----[ 「 *ADVERTISEMENT ${botName}* 」 ]----- 🔰
+return` 「 *ADVERTISEMENT ${botName}* 」
 ──────────────────────────────
 ◯ *RENT LIST & CREATE BOTS :*
 ◯ *RENT : 25K/GROUP (MONTH)*
@@ -146,14 +146,14 @@ return`🔰 -----[ 「 *ADVERTISEMENT ${botName}* 」 ]----- 🔰
 ──────────────────────────────
 *ADVANTAGES FOR BOTS :*
 
-*1. CAN BECOME YOUR OWN BOTT OWNER*
-*2. CAN CHANGE YOUR OWN BOTT NAME*
+*1. CAN BECOME YOUR OWN BOT OWNER*
+*2. CAN CHANGE YOUR OWN BOT NAME*
 *3. CAN BRING BOT TO GROUP*
 *4. CAN USE THE COMMAND OWNER*
 *5. CAN RENT BOTS BACK*
 ──────────────────────────────
 ──────────────────────────────
-◯ *wa.me/${ownerNumbers}*
+◯ *Wa.me/${ownerNumbers}*
 ──────────────────────────────
 🔰 -----[「 *POWERED BY ${ownerName}* 」]----- 🔰`
 }
