@@ -31,7 +31,7 @@ exports.noregis = () => {
 }
 
 exports.baned = () => {
-	return`*SORRY SORRY ONLY BRO, BUT YOU'VE BANNED ME YAHAHAHA HAYUUU:V*`
+	return`*SORRY YOU'VE BANNED ME YAHAHAHA HAYUUU:V*`
 }
 
 exports.premium = (prefix) => {
@@ -124,7 +124,7 @@ exports.uangkau = (pushname, sender, uangkau) => {
 }
 
 exports.donate = () => {
-return`*DONATIONS*
+return`*DONATE*
 Panda : Wa.me/+94701224462
 Website : https://panda-scr.blogspot.com
 
