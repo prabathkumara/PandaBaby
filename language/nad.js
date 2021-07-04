@@ -138,7 +138,6 @@ return`🔰 -----[ 「 *ADVERTISEMENT ${botName}* 」 ]----- 🔰
 ◯ *RENT : 25K/GROUP (MONTH)*
 ◯ *CREATE: 100K (CAN BE OWNER)*
 ◯ *PAYMENT CAN THROUGH:*
-◯ *OVO, GOPAY, DANA, PULSA+10K*
 ──────────────────────────────
 *BENEFITS OF RENTING BOTS :*
 
