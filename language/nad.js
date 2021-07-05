@@ -27,7 +27,7 @@ exports.nsfwoff = () => {
 }
 
 exports.noregis = () => {
-	return`*NOT VERIFICATION (Panda)*\n\ntype : @verify`
+	return`*| NOT VERIFICATION (Panda) | Some of the commands in Panda BOT-X could not be executed in Sinhala or English *\n\ntype : @verify`
 }
 
 exports.baned = () => {
