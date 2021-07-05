@@ -27,9 +27,15 @@ exports.nsfwoff = () => {
 }
 
 exports.noregis = () => {
-	return`*NOT VERIFICATION (Panda),*
-	*We are DDSX Team*
-	*Some of the commands in Panda BOT-X could not be executed in Sinhala or English*
+	return`*NOT VERIFICATION!*
+
+_Warning,_
+*Some of the commands in Panda BOT-X could not be executed in Sinhala or English. :(*
+
+*Panda BOT-X හි සමහර විධානයන් සිංහල හෝ ඉංග්‍රීසි භාෂාවෙන් ක්‍රියාත්මක කළ නොහැක. :(*
+
+*❏ Owner : Mr.Panda*
+*❏ Bot name : Babybot BOT-X
 	
 	*\n\ntype : @verify*`
 }
