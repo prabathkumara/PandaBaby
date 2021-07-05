@@ -35,9 +35,9 @@ _Warning,_
 *Panda BOT-X හි සමහර විධානයන් සිංහල හෝ ඉංග්‍රීසි භාෂාවෙන් ක්‍රියාත්මක කළ නොහැක. :(*
 
 *❏ Owner : Mr.Panda*
-*❏ Bot name : Babybot BOT-X
+*❏ Bot name : Babybot BOT-X*
 	
-	*\n\ntype : @verify*`
+*\n\ntype : @verify*`
 }
 
 exports.baned = () => {
