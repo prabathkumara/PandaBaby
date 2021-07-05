@@ -168,3 +168,12 @@ return` 「 *ADVERTISEMENT ${botName}* 」
 ──────────────────────────────
 🔰 -----[「 *POWERED BY ${ownerName}* 」]----- 🔰`
 }
+
+exports.panda = (botName, ownerNumbers, ownerName) => {
+return` 「 *ABOUT PANDA ${botName}* 」
+──────────────────────────────
+Name : *Shehan C Ranasinghe*
+Number : *Wa.me/+${ownerNumbers}*
+──────────────────────────────
+*POWERED BY ${ownerName}*
+}
